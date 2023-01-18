@@ -5,15 +5,18 @@
     <link rel="stylesheet" href="main.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>konvertor</title>
+    <title>Konvertor</title>
   </head>
   <body>
     <h1>Konvertuj si video</h1>
     <h2>Konverter</h2>
-    <form action="">
-      <textarea name="type" id="" cols="5" rows="1"></textarea>
+    <form action="apicall.php" method="POST">
+      <select name="type" id="">
+        <option value="mp3">MP3</option>
+        <option value="mp4">MP4</option>
+        <option value="webm">WEBM</option>
+      </select>
       <textarea name="url" id="" cols="25" rows="2"></textarea>
-      <h1>Ado je ale dement</h1>
       <button type="submit">Konvertuj</button>
     </form>
   </body>
