@@ -1,6 +1,6 @@
 <?php 
-$type = $_POST['type'];
-$url = $_POST['url'];
+$type = $_GET['type'];
+$url = $_GET['url'];
 ?>
 
 <!DOCTYPE html>
